@@ -1,0 +1,7 @@
+module com.pos.main {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+    opens com.pos.main to javafx.fxml;
+    exports com.pos.main;
+}
